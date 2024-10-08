@@ -1,0 +1,56 @@
+* {
+    margin: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    justify-content: left;   
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 2px;
+}
+
+nav ul {
+    
+}
+
+nav ul li {
+    
+}
+
+nav ul li a {
+    
+}
+
+nav ul li a:hover {
+    
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.gallery {
+    
+}
+
+.gallery img {
+    
+}
+
+footer {
+    
+}
