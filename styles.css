@@ -1,23 +1,24 @@
+/* Done by Ahmed Taha & Ammar Osama from sec09 */
 * {
     margin: 5px;
     padding: 2px;
     box-sizing: border-box;
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    font-family: 'Comic Sans MS'; 
 }
 
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #F8F9FA; /* Very light gray background */
+    font-family: 'Comic Sans MS';
+    background-color: #F8F9FA; 
 }
 
 header {
-    background-color: #FFFFFF; /* White header */
+    background-color: #FFFFFF; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px;
-    border-bottom: 2px solid #4C5B61; /* Darker color for a subtle contrast */
+    border-bottom: 2px solid #4C5B61;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -26,17 +27,17 @@ header {
 }
 
 h1 {
-    color: #2E3A40; /* Dark gray color for main heading */
-    font-size: 2.5rem; /* Larger font size */
+    color: #2E3A40; 
+    font-size: 2.5rem;
 }
 
 h2 {
-    color: #4C5B61; /* Muted teal for subtitles */
-    font-size: 1.5rem; /* Size adjustment for subtitle */
+    color: #4C5B61; 
+    font-size: 1.5rem;
 }
 
 footer p {
-    color: #2E3A40; /* Dark gray text */
+    color: #2E3A40; 
 }
 
 nav ul {
@@ -74,7 +75,7 @@ section {
     flex-wrap: wrap;
     margin: 20px;
     padding: 20px;
-    background-color: #FFFFFF; /* White section background */
+    background-color: #FFFFFF;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     flex: 1;
@@ -96,68 +97,68 @@ section {
 footer {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: #FFFFFF; /* White footer */
+    background-color: #FFFFFF; 
     text-align: center;
     padding: 10px;
     margin-top: 20px;
-    border-top: 2px solid #4C5B61; /* Darker color for the footer border */
+    border-top: 2px solid #4C5B61;
 }
 
 table, th, td {
     text-align: center;
-    border: 1px solid #4C5B61; /* Darker color for table borders */
+    border: 1px solid #4C5B61; 
     padding: 10px;
 }
 
 td {
-    background-color: #D1E3E5; /* Light teal for table cells */
+    background-color: #D1E3E5; 
 }
 
 @media (max-width: 768px) {
     header, nav ul {
-        flex-direction: column; /* Stack nav items on small screens */
-        align-items: center; /* Center nav items */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .gallery img {
-        width: 90%; /* Responsive image width */
+        width: 90%; 
     }
 
     h1 {
-        font-size: 2rem; /* Smaller title on mobile */
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 1.2rem; /* Smaller subtitle on mobile */
+        font-size: 1.2rem;
     }
 
     table, th, td {
-        font-size: 12px; /* Smaller font size for mobile */
+        font-size: 12px; 
     }
 }
 
 @media (min-width: 1200px) {
     body {
         margin: 0 auto;
-        max-width: 1200px; /* Max width for large screens */
+        max-width: 1200px;
     }
 
     nav ul {
-        justify-content: space-between; /* Space between nav items */
+        justify-content: space-between;
     }
 
     section {
-        margin: 40px auto; /* Center sections */
+        margin: 40px auto; 
         padding: 30px;
-        max-width: 1000px; /* Max width for sections */
+        max-width: 1000px; 
     }
 
     .gallery img {
-        width: 350px; /* Larger images on desktop */
+        width: 350px; 
     }
 
     table, th, td {
-        font-size: 16px; /* Larger font size for desktop */
+        font-size: 16px;
         padding: 15px;
     }
 }
