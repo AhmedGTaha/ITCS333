@@ -2,36 +2,41 @@
     margin: 5px;
     padding: 2px;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
 }
 
 body {
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #F8F9FA; /* Very light gray background */
 }
 
 header {
-    background-color: white;
+    background-color: #FFFFFF; /* White header */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #4C5B61; /* Darker color for a subtle contrast */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
+
 h1 {
-    color: black;
+    color: #2E3A40; /* Dark gray color for main heading */
+    font-size: 2.5rem; /* Larger font size */
 }
+
 h2 {
-    color: black;
+    color: #4C5B61; /* Muted teal for subtitles */
+    font-size: 1.5rem; /* Size adjustment for subtitle */
 }
+
 footer p {
-    color: black;
+    color: #2E3A40; /* Dark gray text */
 }
 
 nav ul {
@@ -59,7 +64,6 @@ nav ul li a:hover {
     border-radius: 10px;
     padding: 5px;
 }
-
 main {
     padding: 20px;
 }
@@ -70,7 +74,7 @@ section {
     flex-wrap: wrap;
     margin: 20px;
     padding: 20px;
-    background-color: white;
+    background-color: #FFFFFF; /* White section background */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     flex: 1;
@@ -85,68 +89,75 @@ section {
 
 .gallery img {
     width: 400px;
-    height: 300px;
+    height: auto;
     border-radius: 10px;
 }
 
 footer {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: white;
+    background-color: #FFFFFF; /* White footer */
     text-align: center;
     padding: 10px;
     margin-top: 20px;
-    border-top: 2px solid #000;
+    border-top: 2px solid #4C5B61; /* Darker color for the footer border */
 }
 
 table, th, td {
     text-align: center;
-    border: 1px solid;
+    border: 1px solid #4C5B61; /* Darker color for table borders */
     padding: 10px;
 }
 
 td {
-    background-color: rgb(178, 178, 178);
+    background-color: #D1E3E5; /* Light teal for table cells */
 }
 
 @media (max-width: 768px) {
     header, nav ul {
-        flex-direction: column;
+        flex-direction: column; /* Stack nav items on small screens */
+        align-items: center; /* Center nav items */
     }
 
     .gallery img {
-        width: 100%;
-        height: auto;
+        width: 90%; /* Responsive image width */
+    }
+
+    h1 {
+        font-size: 2rem; /* Smaller title on mobile */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Smaller subtitle on mobile */
     }
 
     table, th, td {
-        font-size: 12px;
+        font-size: 12px; /* Smaller font size for mobile */
     }
 }
 
 @media (min-width: 1200px) {
     body {
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 1200px; /* Max width for large screens */
     }
 
     nav ul {
-        justify-content: space-between;
+        justify-content: space-between; /* Space between nav items */
     }
 
     section {
-        margin: 40px auto;
+        margin: 40px auto; /* Center sections */
         padding: 30px;
-        max-width: 1000px;
+        max-width: 1000px; /* Max width for sections */
     }
 
     .gallery img {
-        width: 350px;
-        height: 250px;
+        width: 350px; /* Larger images on desktop */
     }
 
     table, th, td {
-        font-size: 16px;
+        font-size: 16px; /* Larger font size for desktop */
         padding: 15px;
     }
 }
