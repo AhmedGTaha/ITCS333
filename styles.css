@@ -6,9 +6,10 @@
 }
 
 body {
-    display: flex;
+    display: flex ;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/44221213-little-boy-and-girl-toys-pattern-kids-seamless-texture-background-with-children-stuff.jpg);
 }
 
 header {
@@ -21,6 +22,8 @@ header {
     text-align: center;
 }
 
+h2{ color: orange}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -32,6 +35,7 @@ nav ul li {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: space-evenly;
+    
 }
 
 nav ul li a {
@@ -66,8 +70,8 @@ section {
 }
 
 .gallery img {
-    max-width: 100%; 
-    height: auto; 
+    width: 400px;
+    height: 300px; 
     border-radius: 10px; 
 }
 
@@ -75,3 +79,13 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
+table, th, td{
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+}
+
+td{background-color: rgb(178, 178, 178)}
+
+
