@@ -37,3 +37,5 @@ The website is designed to be user-friendly and visually appealing, with a clear
 
 ## Screenshots
 ### Example of Weekly Schedule Section:
+![image](https://github.com/user-attachments/assets/145482cf-51f0-44ab-b820-41817be5317b)
+
